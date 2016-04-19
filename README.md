@@ -1,14 +1,18 @@
 # socat-signtool
 
 # Install
+~~~bash
 cp socat-acm0.sh /etc/init.d/
 update-rc.d socat-acm0.sh defaults
 reboot
+~~~
 
 
 # Using
+~~~bash
 service socat-acm0 start
 service socat-acm0 stop
+~~~
 
 # Tested with 
 HW Virtual Serial Port
